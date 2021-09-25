@@ -1,0 +1,58 @@
+$gold: #cb9946;
+$dark-gold: #A07225;
+$black: #000000;
+$white: #FFFFFF;
+
+@font-face {
+  font-family: 'EdoSZ';
+  src: local('EdoSZ'), url('./fonts/edosz.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NunitoSans-Regular';
+  src: local('NunitoSans-Regular'), url('./fonts/NunitoSans-Regular.ttf') format('truetype');
+}
+@font-face {
+  font-family: 'NunitoSans-Bold';
+  src: local('NunitoSans-Bold'), url('./fonts/NunitoSans-Bold.ttf') format('truetype');
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: NunitoSans-Regular, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.edo {
+  font-family: EdoSZ, sans-serif;
+}
+
+.gold {
+  color: $gold;
+}
+.bg-gold {
+  background-color: $dark-gold;
+}
+
+.black {
+  color: $black;
+}
+.bg-black {
+  background-color: $black;
+}
+
+.white {
+  color: $white;
+}
+.bg-white {
+  background-color: $white;
+}
